@@ -17,11 +17,11 @@ var rootCmd = &cobra.Command{
 	Short: "A CLI tool to manage your tasks",
 	Long: `A simple Task Manager built in Go.
 
-You can add, list, update tasks and more using various commands.
-For example:
-  task add --name "Buy milk"
-  task list
-  task update <taskId> --status done`,
+    You can add, list, update tasks and more using various commands.
+    For example:
+      task add --name "Buy milk"
+      task list
+      task update <taskId> --status done`,
 }
 
 
